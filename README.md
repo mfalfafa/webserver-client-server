@@ -1,7 +1,7 @@
-# webserver-client-server
+# websocket-client-server
 Communication between raspi and another raspi using websocket protocol. one raspi as a server and another raspi as a client.
 
-=> Server Side
+# => Server Side
 ~ reqirements :
 1. Install node js
 $curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
@@ -15,7 +15,7 @@ $npm install file-system --save
 ~ Running : (add this file to raspi one)
 $node server.js
   
-=> Client side
+# => Client side
 ~ requirements :
 1. Install node js
 2. Install socket.io client side
