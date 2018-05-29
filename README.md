@@ -23,3 +23,8 @@ $npm install socket.io-client --save
 3. Install another module such as on-off module to control i/o
 ~ Running : (add this file to another raspi)
 $node client.js
+
+# => References
+socket.io : https://www.npmjs.com/package/socket.io
+socket.io-client : https://www.npmjs.com/package/socket.io-client
+webserver with websocket : https://www.w3schools.com/nodejs/nodejs_raspberrypi_webserver_websocket.asp
